@@ -42,7 +42,7 @@ export default function VietnameseNameGenerator() {
   }, [gender, length, defaultLastName, defaultFirstName]);
   return (
     <div className="flex flex-col gap-4 justify-center max-w-md p-4">
-      <h1>Random Name</h1>
+      <p>Độ dài: {length}</p>
       <input
         type="range"
         min="2"
